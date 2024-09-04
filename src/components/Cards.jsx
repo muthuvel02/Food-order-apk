@@ -5,7 +5,7 @@ const Cards = ({ res }) => {
   console.log(res);
   return (
     <div className="card">
-      <img src={IMG_CDN_URL + res?.info?.cloudinaryImageId} />
+      <img src={IMG_CDN_URL+res?.info?.cloudinaryImageId} />
 
       <h3> {res?.info?.name}</h3>
       <h3> {res?.info?.costForTwo}</h3>
